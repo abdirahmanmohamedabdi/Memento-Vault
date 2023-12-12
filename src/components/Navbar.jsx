@@ -44,7 +44,7 @@ export default function Example() {
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-one">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -84,7 +84,7 @@ export default function Example() {
                   </>
                 )}
               </Popover>
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="#" className="text-base font-medium text-one hover:text-gray-900">
                 Add items to the vault
               </a>
              
@@ -137,7 +137,7 @@ export default function Example() {
               </Popover>
             </Popover.Group>
             <div className="flex items-center md:ml-12">
-              <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <a href="#" className="text-base font-medium text-one hover:text-gray-900">
                 Sign in
               </a>
               <a
@@ -169,7 +169,7 @@ export default function Example() {
               <div className="flex items-center justify-between">
                
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-one focus:ring-inset focus:ring-one">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -179,7 +179,7 @@ export default function Example() {
                 <nav>
                   
                   <div className="mt-8 text-base">
-                    <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="#" className="font-medium text-one ">
                       {' '}
                      Add items to the vault<span aria-hidden="true">&rarr;</span>
                     </a>
@@ -198,7 +198,7 @@ export default function Example() {
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   {' '}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                  <a href="#" className="text-one hover:text-indigo-500">
                     Sign in
                   </a>
                 </p>
